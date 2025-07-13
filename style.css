@@ -1,0 +1,95 @@
+/* Dark Theme Base */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #121212;
+  color: #fff;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 1px;
+  border-bottom: 1px solid #333;
+}
+
+footer {
+  background-color: #1f1f1f;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #aaa;
+}
+
+main {
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px #000;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-info h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.product-info p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+select, input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #e91e63;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .product-card {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}

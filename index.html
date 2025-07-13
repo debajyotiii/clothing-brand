@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fraseonix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Fraseonix</h1>
+  </header>
+
+  <main>
+    <section class="product-card">
+      <img src="shopping.webp" alt="Product Image" id="product-image" />
+      
+      <div class="product-info">
+        <h2>Black Oversized Hoodie</h2>
+        <p>Premium quality unisex hoodie. Super comfortable and stylish.</p>
+
+        <label for="size">Size:</label>
+        <select id="size">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1"/>
+
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Fraseonix. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
